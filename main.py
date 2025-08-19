@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-with open('system_prompt02.txt', 'r', encoding='utf-8') as f:
+with open('system_prompt03.txt', 'r', encoding='utf-8') as f:
     SYSTEM_PROMPT = f.read().strip()
 
 model = OpenAIModel(
